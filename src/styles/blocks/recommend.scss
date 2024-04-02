@@ -1,0 +1,18 @@
+.recommend {
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+
+  &__cards {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+
+    @include on-desktop {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(324px, 1fr));
+      gap: 24px;
+    }
+  }
+
+}
