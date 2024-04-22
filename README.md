@@ -1,4 +1,8 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
-    - [DEMO LINK](https://<your_account>.github.io/<repo_name>/)
+# My PET-landing page
+It's a landing page creating for 'Bang and Olafson' store
+ - [DEMO LINK] (https://manankin.github.io/landing_page-bang_olafson/)
+ - [CODE] (https://github.com/manankin/landing_page-bang_olafson/src)
+
+Technologies:
+ - HTML, CSS, SASS
+ - BEM methodology

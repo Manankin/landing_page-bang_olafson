@@ -1,0 +1,65 @@
+.header {
+  height: 100vh;
+  background-image: url('../images/bg-image.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+
+  margin-right: calc(-1 * (100vw - 100%));
+  overflow-x: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 24px;
+
+    @include padding-inline;
+  }
+
+  &__image {
+    height: 16px;
+
+    @include on-tablet {
+      height: 24px;
+    }
+  }
+
+  &__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  &__bottom {
+    padding-block: 0 40px;
+
+    @include padding-inline;
+
+    @include on-tablet {
+      padding-block: 0 64px;
+    }
+  }
+
+  &__title {
+    color: $text-color-header;
+    font-size: 36px;
+    line-height: 100%;
+    font-weight: 700;
+
+    @include on-tablet {
+     font-size: 48px;
+    }
+
+    @include on-desktop {
+      font-size: 56px;
+    }
+  }
+}
